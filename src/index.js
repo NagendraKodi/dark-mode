@@ -1,6 +1,5 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import ReactDOM from "react-dom";
-import storage from "local-storage-fallback";
 import { ThemeProvider, createGlobalStyle } from "styled-components";
 import useTheme from "./useTheme";
 import ToggleMode from "./ToggleMode";
